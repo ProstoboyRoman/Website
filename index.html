@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman Talakh</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto+Slab:wght@400;600;800&family=Rowdies&display=swap" rel="stylesheet">
+    <!--icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <!--Navigation-->
+    <header class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <i class='bx bxl-dev-to'></i>
+                <span>RT</span>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <div class="user">
+            <img src="IMG_my.jpg" alt="me" class="pp">
+            <p class="bold">Roman Talakh</p>
+            <p>Admin</p>
+        </div>
+        <ul>
+            <li>
+                <a href="#main">
+                    <i class='bx bx-clipboard'></i>
+                    <span class="nav-item">Infos</span>
+                </a>
+                <span class="tooltip">Infos</span>
+            </li>
+            <li>
+                <a href="#about">
+                    <i class='bx bxs-id-card'></i>
+                    <span class="nav-item">About </span>
+                </a>
+                <span class="tooltip">About me</span>
+            </li>
+            <li>
+                <a href="#code">
+                    <i class='bx bx-code-block'></i>
+                    <span class="nav-item">Code</span>
+                </a>
+                <span class="tooltip">Code</span>
+            </li>
+            <li>
+                <a href="#blender">
+                    <i class='bx bxl-blender'></i>
+                    <span class="nav-item">3D</span>
+                </a>
+                <span class="tooltip">Blender</span>    
+            </li>
+            <li>
+                <a href="#contacts">
+                    <i class='bx bxs-envelope'></i>
+                    <span class="nav-item">Contacts</span>
+                </a>
+                <span class="tooltip">Contacts</span>
+            </li>
+            <li>
+                <button id="Light" onclick="switchIAT()">
+                    <i id="l_icon"  class='bx bx-brightness-half'></i>
+                    <span id="darkmode_text" class="nav-item">Light</span>
+                </button>
+                <span class="tooltip">Dark/light Mode</span>
+            </li>
+        </ul>
+    </header>
+    <!--Content-->
+    <main class="main">
+        <section id="main" class="info_section">
+            <div class="info_text">
+                <h1>
+                    Roman Talakh,
+                    <span style="color: var(--main-color)"><br />Webdeweloper</span>
+                </h1>
+                <p class="subinfo">
+                    Diese Website auf 100 % entwickelt bei mir. Der Hauptziele diesen
+                    Webseiten ist zu zeigen, was ich programmieren kann, zeigen, was ich
+                    schon selbständig gelernt hatte. Hier findest du kurze Information
+                    über mich, mein code und meine kontakten.
+                </p>
+            </div>
+            <img src="IMG_.jpg" alt="">
+        </section>
+        <section id="about" class="about_section">
+            <img src="IMG_2.jpg" alt="">
+            <div class="about_text">
+                <h2>Über Mich</h2>
+                <p>
+                    Fangen wir von ganzem Anfang auf. Ich bin in der Ukraine geboren und
+                    da aufgewachsen. Ich besuchte da Schule bis zum 10 klasse. Dann
+                    bekam ich eine Möglichkeit, mit meiner Mutter nach Deutschland
+                    umfahren. Noch in der Ukraine begann ich Deutsch zu lernen. Im
+                    Januar 2020 kam ich erste Mal nach Deutsch. Das war Coronazeit, die
+                    Schulen waren online. Ungefähr um diese Zeit entdeckt ich IT-Welt
+                    für mich. In der Gesamtschule Leverkusen Schlebusch fing ich
+                    international Vorbereitungsklasse und teilweise 9 Klasse besuchen.
+                    Im nächsten Jahr ging ich komplett in die 10. Klasse. Am Ende des 10
+                    klasse bekam ich Fachoberschulreife und Verständnis, dass ich in
+                    IT-Bereich arbeiten möchte.
+                </p>
+            </div>
+        </section>
+        <section id="code" class="code_section">
+            <h2>Code</h2>
+            <div class="box_section">
+                <div class="box">
+                    <h3>Google Drive</h3>
+                    <p>Offnen meinen Google Drive</p>
+                    <i class='bx bxs-cloud-download'></i>
+                    <a href="https://drive.google.com/drive/folders/1AL11A3i4Hr5CRDb1GMsLiUbCYlkKIqXC?usp=sharing" target="_blank">Offnen</a>
+                </div>
+                <div class="box">
+                    <h3>Github</h3>
+                    <p>Offnen meinen Github</p>
+                    <i class='bx bxl-github'></i>
+                    <a href="">Offnen</a>
+                </div>
+                <div class="box">
+                    <h3>Download</h3>
+                    <p>Download Zip file direkt von diesen websit</p>
+                    <i class='bx bxs-download'></i>
+                    <a href="index.html" download>Offnen</a>
+                </div>
+            </div>
+        </section>
+        <section id="blender">"3D Model" hier biebt es noch nichts</section>
+        <section id="contacts">Contacts</section>
+    </main>
+</body>
+</html>
